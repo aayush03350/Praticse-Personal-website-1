@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-bar {
+    height: 10vh;
+    background-color: #5566400a;
+    position: relative;
+    width: 100vw;
+}
+
+a {
+    color: black;
+}
+.container {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.my-name {
+    font-weight: bolder;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    left: 10%;
+}
+.navbar-name {
+    display: inline-block;
+    position: absolute;
+    right: 8vh;
+    top: 20px;
+}
+.nav-link {
+    text-decoration: none;
+    padding: 10px;
+}
+/* This is content section */
+.Secont-content {
+    margin-top: 30px;
+    position: relative;
+    height: 40vh;
+}
+
+.my-info {
+    position: absolute;
+    width: 25%;
+    margin: 0 auto;
+    left: 10%;
+}
+.profile-img {
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10%;
+    float: right;
+    clear: left;
+}
+/* about section */
+.about {
+    background-color: rgb(8, 8, 8);
+    height: 50vh;
+    margin: 10px 0;
+    position: relative;
+}
+.about-intro {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    padding: 20px;
+}
+.aobut-discription {
+    color: #fff;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.web-developer {
+    width: 20%;
+    background-color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px;
+}
+.programmer-img {
+    /* position: absolute; */
+    height: 20%;
+    display: inline-block;
+    width: 100%;
+    /* width: 100%; */
+}
+.web-discription {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    border-radius: 10px black;
+}
+.web-developers {
+    width: 20%;
+    background-color: #fff;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px;
+}
+
+.blog-img {
+    height: 40%;
+    display: inline-block;
+    width: 100%;
+}
+/* this is fotter */
+.fotter {
+    margin-top: 30%;
+    height: 10vh;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    color: white;
+}
+.copyright {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.fotter-tag {
+    display: inline-block;
+    top: 30%;
+    position: absolute;
+    right: 10%;
+}
+.tag {
+    color: white;
+    position: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    top: 1%;
+    /* position: absolute; */
+}
